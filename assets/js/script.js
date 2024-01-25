@@ -9,7 +9,7 @@ window.onscroll = function () {
         nav.classList.remove("nav-transparent");
     } 
     else {
-        console.log("no scroll");
+        
         nav.classList.add("nav-transparent");
         nav.classList.remove("nav-colored");
     }
@@ -28,11 +28,13 @@ $(function(){
         let asunto = $("#asunto").val();
         let mensaje = $("#mensaje").val();
         nombre = capitalizeFirstLetter(nombre.toLowerCase());
+        // chequeo de campos vacios
+        alert("Por favor complete todos los campos");
+        
         if(nombre == "" || asunto == "" || mensaje == ""){
-            alert("Por favor complete todos los campos");
+            return false;
         }
-        else{
-            
+        else{            
             alert(`Gracias ${nombre} por contactarnos, te responderemos a la brevedad`);
         }
 

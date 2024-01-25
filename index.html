@@ -136,21 +136,21 @@
         <hr>
   
         <div class="col-12 mb-3">
-          <form id="form">
-          <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-          <input id="name" type="text" class="form-control"  placeholder="Nombre">
+          <form id="form" autocomplete="on">
+          <label for="name" class="form-label">Nombre</label>
+          <input id="name" type="text" class="form-control" autocomplete="additional-name" placeholder="Nombre">
         </div>
   
         <div class="col-12 mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+          <label for="asunto" class="form-label">Asunto</label>
           <input id="asunto" type="text" class="form-control" placeholder="Asunto">
         </div>
         <div class="col-12 mb-3">
-          <label  for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+          <label  for="mensaje" class="form-label">Mensaje</label>
           <textarea id="mensaje" class="form-control"  rows="4"></textarea>
         </div>
   
-        <button id="contacto" type="submit" class="btn">Enviar</button>
+        <button id="contacto" type="submit" class="btn" data-bs-toggle="tooltip" data-bs-placement="right" title="Debes completar todos los campos antes de enviar" ]>Enviar</button>
       </form>
       </section>
 
