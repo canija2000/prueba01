@@ -1,0 +1,11 @@
+#svg{
+    height: 1.5rem;
+    margin: 5px;
+}
+
+.nav-colored { 
+    background-color:#2fd2ff; 
+}
+.nav-transparent {
+     background-color: rgb(0, 0, 0, 0);
+}
