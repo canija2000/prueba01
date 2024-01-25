@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viajes Chile</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&family=Open+Sans:wght@400;700&family=PT+Sans:ital@0;1&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/viajes.svg" type="image/x-icon">
 </head>
 <body>
     <!--navbar-->
@@ -23,13 +26,13 @@
                 <a class="nav-link" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Quienes somos</a>
+                <a class="nav-link" href="#qSomos">Quienes somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Destacados</a>
+                <a class="nav-link" href="#destacados">Destacados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#form-section">Contacto</a>
               </li>
             </ul>
           </div>
@@ -61,61 +64,64 @@
       </section>
 
       <!--quienes somos-->
-      <section id = "qSomos" class="container">
-        <h2 class="text-center">Quienes somos</h2>
+      <section id = "qSomos" class="container d-md-block d-none">
+        <h2 class="text-center pt-3">¿Quiénes somos?</h2>
+        <hr class="p-3">
         <div class="row">
           <div class="col-12 col-sm-4">
-            <i class="fa-solid fa-plane"></i>
-            <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet similique culpa veritatis perferendis molestiae at! </p>
+            <div class="icon-qs text-center"><i class="fa-solid fa-plane"></i></div>
+            <p class="text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum animi reprehenderit id nisi, tenetur fuga aperiam incidunt sit praesentium optio rem, possimus, molestias magni Pariatur neque ea atque iusto sapiente odit modi, vero odio tenetur recusandae ducimus aliquam aspernatur dolorem perspiciatis? Doloremque adipisci corporis nemo amet, sint voluptate inventore numquam tempora quo. Voluptatum deserunt dolorum eos officia exercitationem deleniti recusandae voluptates, pariatur, sapiente dignissimos non sunt, aspernatur vitae necessitatibus. Sapiente delectus voluptatem repellendus aliquam harum distinctio odio? Fuga id enim incidunt nobis minima adipisci assumenda! Earum distinctio inventore dicta ut fugit, ad totam nulla aliquid. </p>
         </div>
         <div class="col-12 col-sm-4">
-          <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet similique culpa veritatis perferendis molestiae at! </p>
-          <i class="fa-solid fa-mountain"></i>
+          <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reprehenderit aut totam a amet nesciunt. Labore voluptatum eius ipsam eum est. Ullam ut ex dignissimos. Quae, itaque earum reiciendis, reprehenderit qui iste ipsa veniam quibusdam molestiae, fugit quo optio quod beatae dolore adipisci? Voluptates minima omnis expedita harum commodi inventore, quaerat obcaecati, distinctio dicta architecto voluptate repudiandae repellat illo autem non sint. Repellendus eveniet ex sit cumque aliquam voluptatem alias sapiente fugit ea, maxime amet illum suscipit est praesentium iusto quod repudiandae, et eum. Rem nihil ea quod nesciunt vitae nam repellendus accusantium cupiditate doloribus culpa, aspernatur provident illo et. </p>
+          <div class="icon-qs text-center"> <i class="fa-solid fa-mountain"></i></div>
         </div>
         <div class="col-12 col-sm-4">
-          <i class="fas fa-route"></i>
-          <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet similique culpa veritatis perferendis molestiae at! </p>
+          <div class="icon-qs text-center"> <i class="fas fa-route"></i></div>
+          <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. E
+            rnatur tenetur ut hic ducimus sapiente explicabo nam mollitia, praesentium saepe harum quos quas natus voluptates error dolorem nesciunt, hic reiciendis. Impedit deserunt, aperiam tempora necessitatibus eos placeat possimus asperiores facere explicabo recusandae ex numquam fuga, iure dolor distinctio consectetur, quis praesentium quisquam. Ad aperiam rerum repellat velit exercitationem deleniti ab voluptatem vel, ipsum consectetur quibusdam molestiae similique, temporibus quisquam beatae laboriosam nobis accusantium magni commodi laudantium quam. Quidem fugit placeat natus eius optio illo earum est perferendis, architecto, quae ratione accusamus magni quas nisi reprehenderit.</p>
         </div>
       </section>
 
       <!--destacados-->
 
       <section id="destacados" class="container">
-        <div class="col-12">
-          <h4 class="text-center fs-2 p-5">DESTACADOS</h4>
+        <div class="col-12 "">
+          <h4 class="text-center fs-2 pt-5">DESTACADOS</h4>
+          <hr class="pb-2">
       </div>
       <div class="row">            
-          <div class="col-sm-3 col-12">
+          <div class="col-sm-3 col-12 mb-4">
               <div class="card">
                   <img id="lago" src="assets/img/card1.jpg" class="card-img-top" alt="c1">
-                  <div id="panqueque" class="card-body">
+                  <div id="c1" class="card-body colorcard">
                       <h5 class="card-title">Titulo</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   </div>
                 </div>
           </div>
-          <div class="col-sm-3 col-12">
+          <div class="col-sm-3 col-12 mb-4">
               <div class="card">
                   <img  src="assets/img/card2.jpg" class="card-img-top" alt="c2">
-                  <div id="c2" class="card-body bg-blue">
+                  <div id="c2" class="card-body bg-blue colorcard">
                       <h5 class="card-title">Titulo</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   </div>
                 </div>
           </div>
-          <div class="col-sm-3 col-12">
+          <div class="col-sm-3 col-12 mb-4">
               <div class="card">
                   <img id="ic3" src="assets/img/card3.jpg" class="card-img-top" alt="c3">
-                  <div id="c3" class="card-body">
+                  <div id="c3" class="card-body colorcard">
                       <h5 class="card-title">Titulo</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   </div>
                 </div>
           </div>
-          <div class="col-sm-3 col-12">
+          <div class="col-sm-3 col-12 mb-4">
             <div class="card">
               <img class="card-img-top" src="assets/img/card4.jpg" alt="Card image cap">
-              <div class="card-body">
+              <div class="card-body colorcard">
                 <h5 class="card-title">Titulo</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
@@ -125,37 +131,40 @@
 
       <!--contacto-->
 
-      <section id="form-section" class="container mx-5  my-5">
+      <section id="form-section" class="container">
         <h2 class="mb-3 text-center p-3">CONTACTO</h2>
+        <hr>
   
         <div class="col-12 mb-3">
+          <form id="form">
           <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-          <input type="text" class="form-control"  placeholder="Nombre">
+          <input id="name" type="text" class="form-control"  placeholder="Nombre">
         </div>
   
         <div class="col-12 mb-3">
           <label for="exampleFormControlInput1" class="form-label">Asunto</label>
-          <input type="text" class="form-control" placeholder="Asunto">
+          <input id="asunto" type="text" class="form-control" placeholder="Asunto">
         </div>
         <div class="col-12 mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <label  for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+          <textarea id="mensaje" class="form-control"  rows="4"></textarea>
         </div>
   
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button id="contacto" type="submit" class="btn">Enviar</button>
+      </form>
       </section>
 
         <!--footer-->
-        <section id="footer" class="container p-3">
+        <section id="footer" class=" w-100 p-4 mt-3">
           <div class="row">
-            <div class="col-12 col-sm-6">
+            <div class="col-12 col-sm-6 text-center">
               <h4>VIAJES CHILE</h4>
             </div>
-            <div class="col-12 col-sm-6">
-              <i class="fab fa-github-square"></i>
-              <i class="fa-brands fa-linkedin"></i>
-              <i class="fab fa-twitter-square"></i>
-              <i class="fab fa-facebook-square"></i>
+            <div class="col-12 col-sm-6 text-center">
+              <i class="fab fa-github-square" data-bs-toggle="tooltip" data-bs-placement="top" title="Visita nuestro Github" ></i>
+              <i class="fa-brands fa-linkedin" data-bs-toggle="tooltip" data-bs-placement="top" title="Visita nuestro Linkedin"></i>
+              <i class="fab fa-twitter-square" data-bs-toggle="tooltip" data-bs-placement="top" title="Visita nuestro Twitter"></i>
+              <i class="fab fa-facebook-square" data-bs-toggle="tooltip" data-bs-placement="top" title="Visita nuestro Facebook"></i>
           </div>
 
         </section>
