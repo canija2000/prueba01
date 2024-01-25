@@ -21,27 +21,27 @@ function capitalizeFirstLetter(str) {
     return str[0].toUpperCase() + str.slice(1);
   }
 
+// funcion para enviar el formulario
+
 
 $(function(){
     $("#contacto").click(function(){
-        let nombre = $("#name").val();
-        let asunto = $("#asunto").val();
-        let mensaje = $("#mensaje").val();
-        nombre = capitalizeFirstLetter(nombre.toLowerCase());
-        // chequeo de campos vacios
-        alert("Por favor complete todos los campos");
-        
-        if(nombre == "" || asunto == "" || mensaje == ""){
-            return false;
+        // captura de datos del formulario
+        if ($("#name").val() === "" || $("#asunto").val() === "" || $("#mensaje").val() === ""){
+            alert("Por favor complete todos los campos");
         }
-        else{            
-            alert(`Gracias ${nombre} por contactarnos, te responderemos a la brevedad`);
-        }
+        else {
+            var name = capitalizeFirstLetter($("#name").val());
+            alert("Hola " + name + ", su mensaje ha sido enviado con éxito");
+            
+            }
+        })});
+       
 
     
-    });
+    
 
-});
+
 
 // chequeo de campos vacios
 
